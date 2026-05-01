@@ -99,11 +99,13 @@ npm run dev
 
 ## 🌍 Deployment
 
-### Backend (Railway )
-1. Push the `backend` code to GitHub.
-2. Connect your repo to  Railway.
-3. Add Environment Variables: `MONGO_URI`, `JWT_SECRET`, `CLIENT_URL`.
-4. Set the build command to `npm install` and start command to `npm start`.
+### Backend (Render)
+1. Push your code to GitHub.
+2. Create a **New Web Service** on Render.
+3. Connect your repository.
+4. **Important**: Set the **Root Directory** to `backend`.
+5. Add Environment Variables: `MONGO_URI`, `JWT_SECRET`, `CLIENT_URL` (your Vercel URL), and `NODE_ENV` (`production`).
+6. The Build Command should be `npm install` and Start Command `npm start`.
 
 ### Frontend (Vercel)
 1. Push the `frontend` code to GitHub.
