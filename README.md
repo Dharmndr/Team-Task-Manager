@@ -109,7 +109,7 @@ npm run dev
 1. Push the `frontend` code to GitHub.
 2. Connect your repo to Vercel.
 3. Set the build command to `npm run build` and output directory to `dist`.
-4. Add Environment Variable: `VITE_API_URL` (if not using proxy in production).
+4. Add Environment Variable: `VITE_API_URL`.
 
 ## 📄 License
 MIT
